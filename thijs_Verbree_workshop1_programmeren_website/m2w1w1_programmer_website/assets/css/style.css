@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+main {
+    margin-left: 10rem;
+}
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(21, 77, 57);
+}
+
+.navbar {
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    background-color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    padding-top: 150px;
+}
+
+.header h1 {
+    font-family:serif;
+    color:rgb(21, 77, 57);
+    background-color: rgb(107, 93, 64);
+    margin-top: 0;
+    border-style: outset;
+    border-color: rgba(58, 23, 23, 0);
+    border-radius: 5px;
+    width: 108.7%;
+    height: 125px;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    margin-left: -10rem;
+}
+
+.logo {
+    height: 142.2px;
+    width: 181.8px;
+    position: relative;
+    top: -209px;
+    margin-left: -10rem;
+}
+
+.intro h2 {
+    margin-left: 100px;
+    color: olivedrab;
+    font-size: 50px;
+}
+.intro {
+    margin-left: 120px;
+    margin-top: -30px;
+    font-size:x-large;
+}
+.foto1 {
+    position: relative;
+    left: 1150px;
+    top: -300px;
+    height: 600px;
+    width: 450px;
+}
+
+.geschiedenis {
+    font-size: x-large;
+    margin-left: 600px;
+    margin-bottom: 300px;
+}
+
+.foto2 {
+    width: 426px;
+    height: 297px;
+    margin-left: -500px;
+    margin-top: -260px;
+    border-radius: 20px;
+}
+
+.onderinfo {
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.foto3 {
+    margin-left: 1100px;
+    width: 600px;
+    height: 322.5px;
+    margin-top: -200px;
+}
+
+.footer {
+    width: 109.1%;
+    height: 200px;
+    margin-left: -160px;
+    background-color: #1e1e24;
+    position: sticky;
+    top: 100%;
+    text-align: center;
+}
+
+.footer img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+#ik {
+    position:relative;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
